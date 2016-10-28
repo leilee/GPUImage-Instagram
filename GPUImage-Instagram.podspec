@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = "Sources/Filters/**/*.{h,m}"
   s.resource = "Sources/Filters/Instagram/GPUImage.InstagramFilter.bundle"
-  s.dependency "GPUImage"
+  s.dependency = 'GPUImage', :git => 'https://github.com/Limon-O-O/GPUImage.git'
 
 end
