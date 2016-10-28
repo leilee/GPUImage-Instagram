@@ -6,7 +6,7 @@
 //  Copyright © 2015年 LiJunfeng. All rights reserved.
 //
 
-#import "GPUImageFourInputFilter.h"
+#import <GPUimage/GPUImageFourInputFilter.h>
 
 extern NSString *const kGPUImageFiveInputTextureVertexShaderString;
 
